@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.botao1{
+    background-color: #41ac20;
+    border: none;
+    color:white;
+    padding: 16px 24px;
+    font-size: 16px;
+    margin:6px 4px ;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.botao1:hover{
+    background-color: #215511;
+}
+
+.botaoAzul{
+    background-color: #2649bb;
+}
+
+.botaoAzul:hover{
+    background-color: #132357;
+}
+.myTable{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+.myTable td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+.myTable th{
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.myTable tr:hover{
+    background-color: #ddd;
+}
