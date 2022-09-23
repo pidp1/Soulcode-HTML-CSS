@@ -7,6 +7,9 @@ body{
     
 
 }
+.buttons{
+    text-align: center;
+}
 .botao1{
     background-color: #41ac20;
     border: none;
@@ -49,4 +52,28 @@ body{
 
 .myTable tr:hover{
     background-color: #ddd;
+}
+.my-form{
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 300px ;
+    margin: auto;
+
+}
+
+.my-form input {
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+}
+.toda-largura{
+    width: 100%;
+    margin: 6px 0;
+
+}
+.my-form-group {
+    margin-bottom: 6px;
 }
